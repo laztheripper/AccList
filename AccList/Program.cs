@@ -36,6 +36,8 @@ namespace AccList
 
         static void Main(string[] args)
         {
+            Console.Title = "AccList 1.0";
+
             string temp = "\"{0}\": {{\n" +
             "\taccount: \"{1}\",\n" +
             "\tpassword: \"{2}\",\n" +
